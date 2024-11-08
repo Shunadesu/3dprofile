@@ -13,7 +13,7 @@ const SectionWrapper = (Component, idName) => function HOC(){
             viewport={{once: false, amount: 1}}
             className={`${style.padding} max-w-7xl mx-auto relative z-0`}
         >
-            <span className='hash-span' id={idName}> &npsp; </span>
+            <span className='hash-span mt-[40px]' id={idName}></span>
             <Component/>
         </motion.section>
     )
