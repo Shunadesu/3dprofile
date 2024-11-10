@@ -36,7 +36,7 @@ const ExpCard = ({exp}) => (
 
 const Experience = () => {
   return (
-    <div>
+    <>
       <motion.div>
         <p className={style.sectionSubText}>What I have done so far</p>
         <h2 className={style.sectionHeadText}>Work Experience</h2>
@@ -51,7 +51,7 @@ const Experience = () => {
           }
         </VerticalTimeline>
       </div>
-    </div>
+    </>
   )
 }
 

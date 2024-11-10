@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to='/' className='flex items-center gap-2' onClick={()=>{setActive(""); window.scrollTo(0, 0)}}>
           <img src={logowhite} alt='logo' className='w-[100px] h-[100px] object-contain'/>
 
-          <p className='text-white font-bold cursor-pointer flex text-[18px]'>Sunny &nbsp; <span className='sm:block hidden'> | JavaScript Mastery</span></p>
+          <p className='text-white font-bold cursor-pointer flex text-[18px]'>Sunny &nbsp; <span className='sm:block hidden'>| Mastery</span></p>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
