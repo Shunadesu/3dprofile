@@ -6,6 +6,7 @@ import { style } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -120,6 +121,13 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+      </motion.div>
+
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+      >
+        <EarthCanvas />
       </motion.div>
     </div>
   )
