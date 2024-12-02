@@ -1,9 +1,9 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
-import {style} from '../style'
-import {services} from '../constants'
+import { style } from '../style'
+import { services } from '../constants'
 
 import { fadeIn, textVariant } from '../utils/motion'
 

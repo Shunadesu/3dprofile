@@ -7,6 +7,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+//template_b9ryw88
+//service_8bd32cd
+
+//Public Key: 9NNb6TKCQ8E5Thk-B
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -37,9 +42,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Sunny.pnhn",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "namp280918@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -68,8 +73,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 w-full flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
-      <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+      <div
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={style.sectionSubText}>Get in touch</p>
@@ -121,14 +125,13 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+      <div
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
-      </motion.div>
+      </div>
     </div>
   )
 }

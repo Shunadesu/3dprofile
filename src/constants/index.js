@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    appscyclone,
     tesla,
     shopify,
     carrent,
@@ -42,11 +42,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Front-End Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI/UX Design",
       icon: mobile,
     },
     {
@@ -116,11 +116,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Intern Front-End Developer",
+      company_name: "Apps Cyclone Technology JSC",
+      icon: appscyclone,
+      iconBg: "#ffffff",
+      date: "December 2023 - Febuary 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
