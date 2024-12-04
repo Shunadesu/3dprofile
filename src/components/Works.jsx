@@ -8,13 +8,15 @@ import { projects } from '../constants'
 
 import { fadeIn, textVariant } from '../utils/motion'
 
-const ProjectCard = ({name, description, tags, image, index, source_code_link }) => {
+const ProjectCard = ({name, description, tags, image, index, source_code_link, source_code_demo }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5 , 0.75)}>
       <Tilt
         options={{max:25, scale: 1, speed: 450}}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
+
+        <a href={source_code_demo}>
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full rounded-2xl object-cover' />
 
@@ -43,6 +45,8 @@ const ProjectCard = ({name, description, tags, image, index, source_code_link })
             </p>
           ))}
         </div>
+
+        </a>
 
       </Tilt>
     </motion.div>

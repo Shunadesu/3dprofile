@@ -15,13 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
+    deralogo,
     appscyclone,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bmweblogo,
+
+    finsweet,
+    travelweb,
+    sunnypf,
+    ecoshop,
+    ecocase,
+    wellbe,
+
     threejs,
   } from "../assets";
   
@@ -127,44 +131,33 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    }, 
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Intern Front-End Developer",
+      company_name: "Derasoft Co., Ltd",
+      icon: deralogo,
+      iconBg: "#ffffff",
+      date: "April 2024 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained scalable web applications using React.js and TypeScript",
+        "Utilized Docker for containerized development environments to ensure consistency across multiple setups.",
+        "Collaborated with cross-functional teams, including designers and backend developers, to deliver feature-rich and user-friendly products",
+        "Implemented responsive and adaptive designs, ensuring seamless performance across various devices and browsers",
+        "Participated in Agile workflows, contributing to sprint planning and task prioritization.",
+        "Conducted code reviews and provided feedback to improve code quality and maintain best practices.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Sales Webite",
+      company_name: "BM Web",
+      icon: bmweblogo,
+      iconBg: "#ffffff",
+      date: "August 2024 - October 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contacting potential customers via phone to promote products and services, building strong client relationships.",
+        "Identifying customer needs and providing tailored solutions to increase sales and satisfaction.",
+        "Maintaining detailed records of customer interactions and following up to ensure successful conversions.",
+        "Collaborating with the sales and marketing teams to refine strategies and meet performance targets.",
       ],
     },
   ];
@@ -172,93 +165,170 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Nam quickly adapted to our team during his internship and delivered exceptional work. His ability to bring creative ideas to the table was invaluable to the project.",
+      name: "Pham Hong An",
+      designation: "Senior Front-End Developer",
+      company: "Apps Cyclone Technology JSC",
+      image: appscyclone,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "As an intern, Nam demonstrated impressive technical skills and a strong work ethic. His contributions helped us improve our website's user experience significantly.",
+      name: "Vo Nguyen Xuan Hao",
+      designation: "CEO",
+      company: "Derasoft Co., Ltd",
+      image: deralogo,
+
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+         "Nam demonstrated exceptional customer service and problem-solving skills during his internship. His ability to understand client needs made him a valuable part of our sales team.",
+      name: "Duong Duc",
+      designation: "Sales Leader",
+      company: "BM Web",
+      image: bmweblogo,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Finsweet Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A visually engaging landing page developed for Finsweet, featuring interactive elements and optimized for an impactful advertising campaign.",
       tags: [
         {
-          name: "react",
+          name: "html",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "javascripts",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: finsweet,
+      source_code_link: "https://github.com/Shunadesu/Intern-Fin",
+      source_code_demo: "https://finsweetsunny.netlify.app/"
     },
     {
-      name: "Job IT",
+      name: "Travel Web",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A captivating travel website with interactive animations designed to engage users and enhance the browsing experience, making travel planning more exciting and intuitive.",
+        tags: [
+          {
+            name: "html",
+            color: "orange-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "javascripts",
+            color: "pink-text-gradient",
+          },
+        ],
+      image: travelweb,
+      source_code_link: "https://github.com/Shunadesu/TravelWeb",
+      source_code_demo: "https://webtravelsunny.netlify.app/"
+    },
+    {
+      name: "Sunny Profile",
+      description:
+        "A React.js-based profile created during my internship, demonstrating my ability to build responsive and interactive web applications, with smooth transitions",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: sunnypf,
+      source_code_link: "https://github.com/Shunadesu/sunnypf",
+      source_code_demo: "https://sunnypf.vercel.app/",
     },
+
     {
-      name: "Trip Guide",
+      name: "Eco Shope",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A React.js-based ecoshop created during my internship at Derasoft, demonstrating my ability to build responsive and interactive web applications, have all CRUD features",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redux-toolkit",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecoshop,
+      source_code_link: "https://github.com/Shunadesu/Intern_Dera",
+      source_code_demo: "https://intern-dera.vercel.app/",
+    },
+
+    {
+      name: "Eco Case",
+      description:
+        "A Next.js created during my internship, demonstrating my ability to build responsive and interactive web applications",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "redux-toolkit",
           color: "pink-text-gradient",
         },
+        {
+          name: "kindaAuth",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ecocase,
+      source_code_link: "https://github.com/Shunadesu/ecocase",
+      source_code_demo: "https://sunnypf.vercel.app/",
+    },
+
+    {
+      name: "WellBe",
+      description:
+      "A visually engaging landing page developed for Wellbe, featuring interactive elements and optimized for an impactful advertising campaign.",
+        tags: [
+          {
+            name: "html",
+            color: "orange-text-gradient",
+          },
+          {
+            name: "css",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "javascripts",
+            color: "pink-text-gradient",
+          },
+        ],
+      image: wellbe,
+      source_code_link: "https://github.com/Shunadesu/InternDeraIII",
+      source_code_demo: "https://intern-dera-iii.vercel.app/",
     },
   ];
   

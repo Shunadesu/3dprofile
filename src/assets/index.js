@@ -22,16 +22,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+//exp
 import appscyclone from "./company/appscyclone.jpeg";
-import tesla from "./company/tesla.png";
+import deralogo from "./company/deralogo.png";
+import bmweblogo from "./company/bmweblogo.png"
+//project
+import finsweet from "./project/finsweet.png";
+import travelweb from "./project/travelweb.png";
+import sunnypf from "./project/sunnypf.png";
+import ecoshop from "./project/Ecoshop.png";
+import ecocase from "./project/ecocase.png";
+import wellbe from "./project/wellbe.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logoblack,
@@ -56,12 +58,16 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
   appscyclone,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  deralogo,
+  bmweblogo,
+
+  //project
+  finsweet,
+  travelweb,
+  sunnypf,
+  ecoshop,
+  ecocase,
+  wellbe,
+
 };
