@@ -38,8 +38,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_8bd32cd',
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        'template_b9ryw88',
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Sunny.pnhn",
@@ -47,7 +49,8 @@ const Contact = () => {
           to_email: "namp280918@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '9NNb6TKCQ8E5Thk-B',
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
