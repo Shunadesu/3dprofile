@@ -1,17 +1,12 @@
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { style } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
 
+import Swal from 'sweetalert2'
 
-//template_b9ryw88
-//service_8bd32cd
-
-//Public Key: 9NNb6TKCQ8E5Thk-B
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -38,10 +33,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_8bd32cd',
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        'template_b9ryw88',
+        'service_8bd32cd',
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'template_b9ryw88',
         {
           from_name: form.name,
           to_name: "Sunny.pnhn",
@@ -49,14 +44,18 @@ const Contact = () => {
           to_email: "namp280918@gmail.com",
           message: form.message,
         },
-        '9NNb6TKCQ8E5Thk-B',
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '9NNb6TKCQ8E5Thk-B',
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          Swal.fire({
+            title: 'Success',
+            text: 'Thank you. I will get back to you as soon as possible.',
+            icon: 'success',
+            confirmButtonText: 'Cool'
+          })
           setForm({
             name: "",
             email: "",
@@ -67,7 +66,11 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+          });
         }
       );
   };
