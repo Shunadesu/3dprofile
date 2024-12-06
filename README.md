@@ -8,3 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 1/12/2024: I use emailjs (dashboard.emailjs.com)
+5/12/2024: I need to add sweetalert for the gmail alert tomorrow!
